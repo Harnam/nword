@@ -11,6 +11,7 @@ import { PassesComponent } from './passes/passes.component';
 import { SettingComponent } from './setting/setting.component';
 import { ErrfofComponent } from './errfof/errfof.component';
 import { ErrservComponent } from './errserv/errserv.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ErrservComponent } from './errserv/errserv.component';
     PassesComponent,
     SettingComponent,
     ErrfofComponent,
-    ErrservComponent
+    ErrservComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,

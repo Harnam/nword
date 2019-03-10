@@ -1,3 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~font-awesome/css/font-awesome.css";
+@import "~font-awesome/css/font-awesome.min.css";
+body {
+  background: #424344;
+}
+i.gande {
+font-style: normal;
+font-family: fontawesome !important;
+}

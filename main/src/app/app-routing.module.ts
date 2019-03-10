@@ -8,6 +8,7 @@ import { PassesComponent } from './passes/passes.component';
 import { AccountComponent } from './account/account.component';
 import { ErrfofComponent } from './errfof/errfof.component';
 import { ErrservComponent } from './errserv/errserv.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/profile', pathMatch: 'full' },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'passes', component: PassesComponent },
   { path: 'login', component: AccountComponent },
   { path: 'settings', component: SettingComponent },
+  { path: 'forgot', component: ForgotComponent },
   { path: 'errserv', component: ErrservComponent },
   { path: '**', component: ErrfofComponent }
 ];
