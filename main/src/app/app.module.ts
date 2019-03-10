@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { SellersComponent } from './sellers/sellers.component';
 import { PassesComponent } from './passes/passes.component';
 import { SettingComponent } from './setting/setting.component';
+import { ErrfofComponent } from './errfof/errfof.component';
+import { ErrservComponent } from './errserv/errserv.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SettingComponent } from './setting/setting.component';
     AccountComponent,
     SellersComponent,
     PassesComponent,
-    SettingComponent
+    SettingComponent,
+    ErrfofComponent,
+    ErrservComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { SellersComponent } from './sellers/sellers.component';
 import { PassesComponent } from './passes/passes.component';
 import { AccountComponent } from './account/account.component';
+import { ErrfofComponent } from './errfof/errfof.component';
+import { ErrservComponent } from './errserv/errserv.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/profile', pathMatch: 'full' },
@@ -13,7 +15,9 @@ const routes: Routes = [
   { path: 'sellers', component: SellersComponent },
   { path: 'passes', component: PassesComponent },
   { path: 'login', component: AccountComponent },
-  { path: 'settings', component: SettingComponent }
+  { path: 'settings', component: SettingComponent },
+  { path: 'errserv', component: ErrservComponent },
+  { path: '**', component: ErrfofComponent }
 ];
 
 @NgModule({
